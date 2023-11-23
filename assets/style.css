@@ -47,6 +47,25 @@ p {
   background-size: cover;
 }
 
+#dog-div:hover {
+  transform: scale(2);
+}
+
 #color-div {
   background: linear-gradient(50deg, salmon, orange, purple);
 }
+
+/* 
+    PROPRIETÀ DISPLAY
+
+    display: block -> rende l'elemento di tipo BLOCCO, può accettare dimensioni
+    e margini, occuperà tutta la larghezza del suo contenitore (si estenderà da
+    parte a parte)
+
+    display: inline -> rende l'elemento di tipo INLINE, NON può accettare NÈ margini
+    NÈ dimensioni, occupa solamente lo spazio strettamente necessario (NON tutta
+    la riga)
+
+    display: inline-block -> l'elemento si comporterà come un INLINE, ma potrà
+    anche accettare delle dimensioni (però NON margini)
+*/

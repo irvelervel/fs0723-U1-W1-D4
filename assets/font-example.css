@@ -1,0 +1,11 @@
+/* IMPORTO DA GOOGLE FONTS IL FONT LATO */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* bisogna dire dove applicare il font importato! */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-weight: 700;
+}
