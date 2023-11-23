@@ -1,0 +1,52 @@
+/* ----- STILI DI BASE ------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p {
+  margin: 0.5em 0; /* 0.5 sopra/sotto, 0 destra/sinistra */
+}
+
+/* ----- STILI DI BASE ------ */
+
+/* STILI PER PAGINA IMAGE.HTML */
+
+.image {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  border: 1px solid black;
+}
+
+#dog-div {
+  /* background-image: url(https://placedog.net/500); */
+  background-image: url(images/capy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#color-div {
+  background: linear-gradient(50deg, salmon, orange, purple);
+}
